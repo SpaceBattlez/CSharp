@@ -1,13 +1,13 @@
 ﻿using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-namespace SpaceBattlez.CSharp
+namespace SpaceBattlez
 {
 	public class Program
 	{
 		static void Main()
 		{
-		    IBot bot = new SimpleBot();
+		    IBot bot = new BasicBot();
 			Console.WriteLine("ready!");
             
 		    string line;
